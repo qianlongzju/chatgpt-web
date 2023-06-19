@@ -5,6 +5,7 @@ export interface RequestProps {
   options?: ChatContext
   systemMessage: string
   temperature?: number
+  role?: string
   top_p?: number
 }
 
